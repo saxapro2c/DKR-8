@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 989
+  Height = 336
+  Top = 350
+  Width = 419
+  Caption = 'Form1'
+  ClientHeight = 336
+  ClientWidth = 419
+  DesignTimePPI = 120
+  LCLVersion = '2.2.6.0'
+  object Edit1: TEdit
+    Left = 254
+    Height = 28
+    Top = 132
+    Width = 100
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 254
+    Height = 28
+    Top = 168
+    Width = 100
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 254
+    Height = 28
+    Top = 208
+    Width = 100
+    OnKeyPress = Edit3KeyPress
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 16
+    Height = 28
+    Top = 88
+    Width = 338
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 48
+    Height = 31
+    Top = 267
+    Width = 94
+    Caption = 'Простой %'
+    OnClick = ProcClick
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 164
+    Height = 31
+    Top = 267
+    Width = 94
+    Caption = 'Сложн %'
+    OnClick = SlozhnClick
+    TabOrder = 5
+  end
+  object Button3: TButton
+    Left = 284
+    Height = 31
+    Top = 267
+    Width = 94
+    Caption = 'CE'
+    OnClick = ButtonClearClick
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 96
+    Height = 20
+    Top = 136
+    Width = 130
+    Caption = 'Исходный капитал'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 20
+    Top = 176
+    Width = 121
+    Caption = 'Срок начисления'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 96
+    Height = 20
+    Top = 208
+    Width = 134
+    Caption = 'Процентная ставка'
+    ParentColor = False
+  end
+end
